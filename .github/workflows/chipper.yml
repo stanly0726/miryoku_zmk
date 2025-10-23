@@ -9,5 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '["chipper_left rgbled_adapter","chipper_right rgbled_adapter"]'
-      modules: '["caksoylar/zmk-rgbled-widget/main"]'
+      shield: '["chipper_left nice_view_adapter nice_epaper","chipper_right nice_view_adapter nice_epaper"]'
+      modules: '["mctechnology17/zmk-nice-oled/main"]'
