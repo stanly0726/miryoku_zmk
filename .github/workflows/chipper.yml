@@ -9,5 +9,5 @@ jobs:
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '["chipper_left rgbled_adapter","chipper_right rgbled_adapter"]'
-      modules: '["caksoylar/zmk-rgbled-widget/main"]'
+      shield: '["chipper_left nice_view_battery","chipper_right nice_view_battery"]'
+      modules: '["infely/nice-view-battery/main"]'
